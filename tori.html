@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>鶏肉</title>
+<style type="text/css">	
+	body {
+        background-color: #B93131;  
+    }
+	.meat{
+	font-size: 3em;
+	margin-left: 170px;
+		color: #FFFFFF
+	}
+	.food {
+    display: flex;
+    flex-wrap: wrap; /* 複数行に対応 */
+    justify-content: center; /* 中央揃え */
+    gap: 50px; /* 各アイテム間の余白 */
+	}
+
+	.food-item {
+    text-align: center; /* 中央揃え */
+    max-width: 400px; /* 最大幅を制限 */
+	}
+
+	.food-item img {
+    width: 100%; /* 画像をレスポンシブに */
+    height: auto; /* 縦横比を保持 */
+    border-radius: 10px; /* 少し丸みを付ける */
+	}
+	.food-item p {
+    font-size: 1.5em; /* 説明文のサイズを調整 */
+    color: #FFFFFF; /* 説明文の色を白に */
+    margin-top: 10px; /* 画像との余白 */
+    font-family: Georgia, "Times New Roman", Times, serif;
+	}
+	.menu-link{
+	color: #FFFFFF;
+	font-size: 1.5em;
+	}
+	.back-link{
+    color: #FFFFFF;
+	font-size: 2em;
+	}
+</style>
+</head>
+
+<body>
+	<div>
+		<div class="meat">★鶏肉</div>
+		<div class="food">
+			<div class="food-item">
+				<img src="tori_momo.jpg" alt="鳥もも">
+				<p>とりもも: お子様にも人気。やわらかくてジューシー</p>
+			</div>
+			<div class="food-item">
+				<img src="tori_yagen.jpg" alt="鳥もも">
+				<p>ハラミ付きヤゲン: ジューシーなハラミがついた、コリコリの軟骨</p>
+			</div>
+		</div>
+	</div>
+	<a class="menu-link" href="menu.html">メニュー一覧</a><br>
+	<br>
+	<a class="back-link" href="index.html">← ホームに戻る</a>
+</body>
+</html>
